@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 //connecting to the database
 mongoose.connect(
-  'mongodb://127.0.0.1:27017/placement_cell', {
+  "mongodb+srv://aizaz060198:Ahmed6198%40@cluster0.iaiuzrt.mongodb.net", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });

@@ -43,7 +43,7 @@ app.use(
       {
         mongooseConnection: db,
         autoRemove: 'disabled',
-        mongoUrl: 'mongodb://127.0.0.1:27017/project1_development'
+        mongoUrl: 'mongodb+srv://aizaz060198:Ahmed6198%40@cluster0.iaiuzrt.mongodb.net/'
       },
       function (err) {
         console.log(err || 'connect-mongodb setup is okay');

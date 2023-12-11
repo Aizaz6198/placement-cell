@@ -1,9 +1,10 @@
-# Your Project Name
+# Placement Cell Management System
 
-Brief description or introduction of your project.
+A web application for managing placement-related activities.
 
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Features](#features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -11,12 +12,19 @@ Brief description or introduction of your project.
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+
+
+## Introduction
+
+This Node.js application is designed to manage placement activities, providing features for user authentication, session management, and more.
 
 ## Features
 
-- List key features of your project.
+- User authentication using Passport.js
+- Session management with MongoDB as the session store
+- Flash messages for notifying users
+- Basic error handling
+- Serving static files and EJS view engine setup
 
 ## Getting Started
 
@@ -28,6 +36,34 @@ Brief description or introduction of your project.
 ### Installation
 
 1. Clone the repository:
+   git clone https://github.com/Aizaz6198/placement-cell.git
 
-   ```bash
-   git clone https://github.com/yourusername/your-project.git
+2. Navigate to the project directory:
+    cd placement-cell
+
+3.  Install dependencies:  
+    npm install
+
+    
+## Usage
+Start the server:
+    npm start
+Visit http://localhost:8000 in your web browser.
+
+## Configuration
+Create a .env file in the root of your project with the following content:
+-MONGODB_URI=mongodb+srv://yourusername:yourpassword@cluster0.iaiuzrt.mongodb.net/your-database.
+-SESSION_SECRET=asewe.
+-PORT=8000.
+
+Adjust the MongoDB URI and session secret as needed.
+
+
+
+## Dependencies 
+
+Node.js
+Express
+Passport
+MongoDB
+and other dependencies (listed in package.json)

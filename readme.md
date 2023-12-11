@@ -48,12 +48,17 @@ This Node.js application is designed to manage placement activities, providing f
 ## Usage
 Start the server:
     npm start
+    
 Visit http://localhost:8000 in your web browser.
 
 ## Configuration
+
 Create a .env file in the root of your project with the following content:
+
 -MONGODB_URI=mongodb+srv://yourusername:yourpassword@cluster0.iaiuzrt.mongodb.net/your-database.
+
 -SESSION_SECRET=asewe.
+
 -PORT=8000.
 
 Adjust the MongoDB URI and session secret as needed.

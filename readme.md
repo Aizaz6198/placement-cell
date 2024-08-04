@@ -17,6 +17,7 @@ A web application for managing placement-related activities.
 ## Introduction
 
 This Node.js application is designed to manage placement activities, providing features for user authentication, session management, and more.
+for demo [click here](https://placement-cell-w2g3.onrender.com)
 
 ## Features
 
